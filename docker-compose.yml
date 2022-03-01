@@ -1,16 +1,22 @@
-console:
-  dockerfile: gremlin-console.dockerfile
-  build: .
+version: '3.9'
+services:
+ console:
+  build: 
+    context: .
+    dockerfile: gremlin-console.dockerfile
   links:
-    - server
+   - server
   volumes:
-    - ./gremlin-console/conf:/gremlin-console/conf
-    - ./gremlin-console/data:/gremlin-console/data
-server:
-  dockerfile: gremlin-server.dockerfile
-  build: .
+   - ./gremlin-console/conf:/gremlin-console/conf
+   - ./gremlin-console/data:/gremlin-console/data
+
+ server:
+  build: 
+   context: .
+   dockerfile: gremlin-server.dockerfile
   ports:
    - "8182:8182"
   volumes:
-    - ./gremlin-server/conf:/gremlin-server/conf
-    - ./gremlin-server/scripts:/gremlin-server/scripts
+   - ./gremlin-server/conf:/gremlin-server/conf
+   - ./gremlin-server/scripts:/gremlin-server/scripts
+
