@@ -3,7 +3,7 @@ https://github.com/jicksta/tankerpop
 
 20220301: changed the docker-compose and dockerfiles to work with v3.9. 
 - added the wgets to unzip and wget 
-- updated the gremlin zips
+- updated the gremlin zips from https://archive.apache.org/dist/tinkerpop/3.2.6/
 
 this worked on a raspi
 
