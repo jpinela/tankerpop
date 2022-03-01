@@ -1,3 +1,9 @@
+this was an update to:
+https://github.com/jicksta/tankerpop
+
+20220301: changed the docker-compose and dockerfiles to work with v3.9
+this worked on a raspi
+
 ![TankerPop](http://i.imgur.com/10sSYOA.png)
 
 TankerPop: TinkerPop v3 + Docker Compose
@@ -75,8 +81,3 @@ Now you're ready to start tinkering!
     gremlin>
 
 A good next-step from here might be the [Getting Started Workout Tutorial](https://tinkerpop.apache.org/docs/3.1.0-incubating/tutorials-getting-started.html) or the fantastic [TinkerPop documentation](https://tinkerpop.apache.org/docs/3.1.0-incubating/).
-# tankerpop
-# tankerpop
-# tankerpop
-# jpinela/tankerpop
-# jpinela/tankerpop
