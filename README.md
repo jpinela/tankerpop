@@ -1,7 +1,9 @@
 this was an update to:
 https://github.com/jicksta/tankerpop
 
-20220301: changed the docker-compose and dockerfiles to work with v3.9
+20220301: changed the docker-compose and dockerfiles to work with v3.9. 
+- added the wgets to unzip and wget 
+- updated the gremlin zips
 this worked on a raspi
 
 ![TankerPop](http://i.imgur.com/10sSYOA.png)
