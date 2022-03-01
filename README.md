@@ -85,4 +85,4 @@ Now you're ready to start tinkering!
 
 A good next-step from here might be the [Getting Started Workout Tutorial](https://tinkerpop.apache.org/docs/3.1.0-incubating/tutorials-getting-started.html) or the fantastic [TinkerPop documentation](https://tinkerpop.apache.org/docs/3.1.0-incubating/).
 
-Additionaly , there are some simple commands in docs/getting_started.md
+Additionaly , there are some simple commands in [docs/getting_started.md](docs/getting_started.md)
